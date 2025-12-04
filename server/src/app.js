@@ -10,6 +10,10 @@ import morgan from "morgan";
 import Razorpay from "razorpay";
 import { Server as SocketServer } from "socket.io";
 
+/* 
+
+TEST */
+
 // Routes
 import authRoutes from "./routes/auth.js";
 import marketRoutes from "./routes/market.js";
