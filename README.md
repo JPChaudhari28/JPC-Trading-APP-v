@@ -56,3 +56,4 @@ Notes
 
 - Zerodha integration is simulated. For production, implement proper Kite Connect login, tokens, 2FA, instrument mapping, and order flows.
 - Wallet add-funds is simulated. Integrate a payment gateway (Razorpay/UPI/NetBanking) for real payments.
+# JPC-Trading-APP
