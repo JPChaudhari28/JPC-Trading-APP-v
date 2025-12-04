@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "jpc-trading-app-server",
+  "version": "1.0.0",
+  "description": "Backend server for JPC Trading App (Express + Zerodha KiteConnect + MongoDB + Socket.IO)",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/app.js",
+    "lint": "eslint .",
+    "fix": "eslint . --fix"
+  },
+  "keywords": [
+    "express",
+    "zerodha",
+    "kiteconnect",
+    "trading",
+    "backend",
+    "api",
+    "mongodb",
+    "socket.io"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "kiteconnect": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "morgan": "^1.10.1",
+    "razorpay": "^2.9.6",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.37.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
